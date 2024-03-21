@@ -6,7 +6,8 @@ const app=express();
 const port= process.env.PORT|| 8000;
 
 const corsOptions = {
-    origin: '*', // Change this to your frontend domain
+    // origin: '*', // Change this to your frontend domain
+    
     optionsSuccessStatus: 200 // some legacy browsers (IE11, various SmartTVs) choke on 204
 };
 
