@@ -7,7 +7,7 @@ const port= process.env.PORT|| 8000;
 
 const corsOptions = {
     // origin: '*', // Change this to your frontend domain
-    origin: ['https://ezgamingworld.com', 'https://ezgamingworld-a552d.web.app/', 'https://ezgamingworld-a552d.firebaseapp.com/'],
+    origin: ['https://ezgamingworld.com', 'https://ezgamingworld-a552d.web.app/', 'https://ezgamingworld-a552d.firebaseapp.com/','https://marketfeed.live/'],
     optionsSuccessStatus: 200 // some legacy browsers (IE11, various SmartTVs) choke on 204
 };
 
